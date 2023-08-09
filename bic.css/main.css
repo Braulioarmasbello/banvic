@@ -1,0 +1,189 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #5B7C8D;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+header {
+   width: 100%;
+   height: 60px;
+
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+ header nav .nav-arriba{
+
+ width: 250px;
+ height: auto;
+ display: flex;
+ list-style: none;
+ justify-content: center;
+ align-items: center;
+ }
+
+ header nav .nav-arriba a{
+
+  margin: 10px;
+  color: #ffffff;
+ }
+
+
+ .puntos img{
+
+  width: auto;
+  height: 10px;
+  margin-top: 7px;
+ }
+ 
+ .cuenta img{
+
+ width: 25px;
+ margin-top: 7px;
+ 
+ }
+ 
+ main{
+
+  margin-top: 150xp;
+  text-align: center;
+
+ }
+
+ main .main-logo {
+
+   width: 530px;
+   margin: 0 auto;
+   margin-bottom: 30px;
+   
+ }
+
+ main .main-logo img{
+
+   width: auto;
+   height: 50px;
+   margin-top: 130px;
+ }
+
+ main .main-input{
+
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+
+ }
+
+ main .main-input-contenedor{
+ 
+  width:  450px;
+  border-radius: 100px;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin: auto;
+ }
+
+ main .main-input input {
+
+ width: 360px;
+ height: 35px;
+ border: none;
+ outline: none;
+
+ }
+
+main .main-input-contenedor:hover {
+  box-shadow: 0 1px 6px 0 #00000070;
+  border-color: #dfe1e500;
+}
+
+main .lupa img{
+
+  width: 16px;
+  height: 16px;
+  margin-right: 1px;
+  margin-top: 5px;
+}
+
+main .micro img{
+
+width: 16px;
+ height: 20px;
+ margin-top: 4px;
+ margin-left: 24px;
+ 
+}
+
+ main .main-botones{
+
+ width: 530px;
+ margin: 0 auto;
+ 
+}
+
+main .main-botones div{
+
+display: inline-block;
+}
+
+main .main-botones button{
+
+ height: 36px;
+ background-color: #a6f6af;
+ border: none;
+ font-size: 14px;
+ color: #3a3535;
+ border-radius: 5px;
+ padding: 0 15px;
+ margin-right: 15px;
+}
+
+main .main-botones button:hover{
+ border: 1px solid #c6c6c6;
+ box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+ color: #222;
+ background-color: #f5f1c5;
+ cursor: pointer;
+
+}
+footer{
+  background-color: #66b6ab;
+  width: 100%;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ position: absolute;
+ bottom: 0;
+
+ font-size: 13px;
+}
+footer ul{
+  margin: 10px;
+  display: flex;
+  padding: 0;
+  list-style: none;
+
+}
+footer .lef{
+  justify-self: left;
+  margin-top: 10px;
+}
+footer .right{
+  justify-self: right;
+}
+footer ul li a{
+  margin: 10px;
+  color: #ffffff;
+  margin-top: 10px;
+}
